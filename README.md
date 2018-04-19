@@ -3,6 +3,7 @@
 ## R packages
 
 * [dqmagic](dqmagic): Interface to libmagic
+* [dqrng](dqrng): Fast random number generators
 * [RcppArrayFire](rcpparrayfire): Interface to ArrayFire
 
 
@@ -12,5 +13,6 @@ At the moment these packages are not on CRAN, but you can install the current ve
 if (!requireNamespace("drat", quietly = TRUE)) install.packages("drat")
 drat::addRepo("RInstitute")
 install.packages("dqmagic")
+install.packages("dqrng")
 install.packages("RcppArrayFire")
 ```
