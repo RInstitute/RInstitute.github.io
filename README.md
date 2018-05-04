@@ -11,7 +11,7 @@ At the moment these packages are not on CRAN, but you can install the current ve
 
 ``` r
 if (!requireNamespace("drat", quietly = TRUE)) install.packages("drat")
-drat::addRepo("RInstitute")
+drat::addRepo("daqana")
 install.packages("dqmagic")
 install.packages("dqrng")
 install.packages("RcppArrayFire")
