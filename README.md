@@ -4,6 +4,7 @@
 
 * [dqmagic](dqmagic): Interface to libmagic
 * [dqrng](dqrng): Fast random number generators
+* [dqsample](dqsample): Bias-free alternative to R's 'sample' function
 * [RcppArrayFire](rcpparrayfire): Interface to ArrayFire
 * [tikzDevice](tikzDevice): R graphics device for LaTeX-friendly plots
 
@@ -17,6 +18,7 @@ if (!requireNamespace("drat", quietly = TRUE))
 drat::addRepo("daqana")
 install.packages("dqmagic")
 install.packages("dqrng")
+install.packages("dqsample")
 install.packages("RcppArrayFire")
 install.packages("tikzDevice")
 ```
