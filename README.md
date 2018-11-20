@@ -5,11 +5,12 @@
 * [dqmagic](dqmagic): Interface to libmagic
 * [dqrng](dqrng): Fast random number generators
 * [dqsample](dqsample): Bias-free alternative to R's 'sample' function
+* [dqshiny](dqshiny): Enhance Shiny Apps with Customizable Modules
 * [RcppArrayFire](rcpparrayfire): Interface to ArrayFire
 * [tikzDevice](tikzDevice): R graphics device for LaTeX-friendly plots
 
 
-At the moment only `dqrng` and `tikyDevice` can be installed via CRAN. 
+At the moment `dqrng`, `dqshiny` and `tikyDevice` can be installed via CRAN. 
 You can use our [drat](https://cran.r-project.org/package=drat) repository to install current versions of all packages:
 
 ``` r
