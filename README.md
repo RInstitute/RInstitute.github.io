@@ -10,7 +10,7 @@
 * [tikzDevice](tikzDevice): R graphics device for LaTeX-friendly plots
 
 
-At the moment `dqrng`, `dqshiny` and `tikyDevice` can be installed via CRAN. 
+At the moment `dqrng`, `dqshiny` and `tikzDevice` can be installed via CRAN. 
 You can use our [drat](https://cran.r-project.org/package=drat) repository to install current versions of all packages:
 
 ``` r
